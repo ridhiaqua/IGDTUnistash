@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<!-- //---------------------HEAD-----------START--------------------------------------------------------------// -->
+<head>
+
+  <title>IGDTU HEAP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="igCss\igcss.css" type="text/css">
+
+</head>
+<!-- //---------------------HEAD-------------END-------------------------------------------------------------// -->
+
+<!-- //---------------------BODY-------------START-----------------------------------------------------------// -->
+
+<body>
+
+<div class="wrapper">
+
+
+<!-- //---------------------HEADER-------------START-------------------// -->
+	<div class="header">
+		
+		   <div id="slideshow">
+
+		    <img class="slides" src="images\a.jpg" >
+            <img class="slides" src="images\b.jpg" >
+            <img class="slides" src="images\c.jpg" >
+            <img class="slides" src="images\d.jpg" >
+            <img class="slides" src="images\e.jpg" >
+
+              <script>
+                  var myIndex = 0;
+                  carousel();
+
+                  function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("slides");
+                  for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                       }
+                  myIndex++;
+
+                  if (myIndex > x.length) {myIndex = 1} 
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 4000); // Change image every 2 seconds
+                  }
+              </script>
+
+			
+		</div>
+
+		   <div id="heading">
+
+		IGDTUNISTASH
+
+		</div>
+
+		   <div id="navigation_bar">
+		     <ul id="navigation_bar_ul">
+
+		     	<li class="navigation_bar_li"><a class="active" href="index.html">HOME</a></li>
+		     	<li class="navigation_bar_li"><a  href="bulletin.html">BULLETIN</a></li>
+		     	<li class="navigation_bar_li"><a  href="#bulletinButton">TEAM</a></li>
+		     	<li class="navigation_bar_li"><a  href="contact.html">CONTACT</a></li>
+
+		     </ul>
+			
+
+		</div>
+
+
+	</div>
+
+	<!-- //----------------HEADER-------------END--------------------// -->
+
+
+
+
+	<!-- //----------------CONTAINER-------------START-----------------// -->
+
+<div class="container" >
+
+	   <div class="iconbar">
+	      <ul class="iconbar_ul">
+	      	  <li><a href="#"><img src="images\facebook.png"></a></li>
+              <li><a href="#"><img src="images\twitter.png"></a></li>
+              <li><a href="#"><img src="images\google-plus.png"></a></li>
+              <li><a href="#"><img src="images\instagram.png"></a></li>
+	      	
+	      </ul> 
+	   	
+	   </div>
+
+	      <div id="container_intro_img">
+	      <h2 id="intro_text">THIS IS THE INTRO OF THE PAGE. WRITE THE PURPOSE AND BENEFIT OF THIS WEBSITE.THIS IS THE INTRO OF THE PAGE. WRITE THE PURPOSE AND BENEFIT OF THIS WEBSITE.</h2>
+		   <img align="middle" id="intro_img" src="images\intro.jpg">        
+            
+	      </div>
+
+
+	      <div id="sidelinkbar">
+	      
+	   	    <ul id="sidelinkbar_ul">
+           
+            <li><a href="#"><button>IGDTUW WEBSITE</button></a></li>
+                <li><a href="#"><button>COLLEGE MAGAZINE</button></a></li>
+            <li><a href="#"><button>BLOG</button></a></li>
+            <li><a href="#"><button>STAY UPDATED!</button></a></li>
+
+            </ul> 
+	      </div>
+
+	      <div class="foundersDiv">
+	               <p>Project under Jha Sir</p><br>
+	                  <img class="foundersDivImg" src="isdfjdfhdjfh">
+	        <p>The initiaters</p><br>
+	       <img class="foundersDivImg" src="djfvdf">
+	       <img class="foundersDivImg" src="djkfvf">
+	       <img class="foundersDivImg" src="djif">
+	       </div>
+
+
+
+	          <p class="clearfix"></p>
+
+	          <button id="bulletinButton">IGDTUNISTASH BULLETIN</button>
+	            <!-- bulletin button-->
+
+	          <div class="fullteamDiv">
+
+                    <div class="fullteamNavDiv">
+	          		<ul > 
+	          			<a href="#"><li>FRONT-END </li></a>
+	          			<a href="#"><li>BACK-END</li></a>
+	          			<a href="#"><li>CONTENT</li></a>
+	          			<a href="#"><li>MARKETING</li></a>
+	          		</ul>
+                   </div>
+
+	          		<div class="fullteamModalDiv">
+
+	          		<ul >
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid1" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid2" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid3" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+	                    <li>
+		                    <img src="grid4" />
+		                      <h3>Image Title</h3>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	                    </li>
+                    </ul>
+
+                    </div>
+
+	          		
+               </div>
+	          	
+
+</div>  
+	<!-- //---------------CONTAINER-------------END----------------// -->
+
+
+
+
+
+
+
+	<!-- //---------------FOOTER-------------START---------------// -->
+	<footer class="footer">
+		<div class="ficonbar">
+	      <ul class="ficonbar_ul">
+	      	  <li><a href="#"><img src="images\facebook.png"></a></li>
+              <li><a href="#"><img src="images\twitter.png"></a></li>
+              <li><a href="#"><img src="images\google-plus.png"></a></li>
+              <li><a href="#"><img src="images\instagram.png"></a></li>
+	      	
+	      </ul> 
+	   	
+	   </div>
+	   <h3 id="fh3"><span>&copy</span>COPYRIGHT 2016 |THE WEBSITE IS BUILT BY SHIFA SAMREEN| IGDTUW</h3>
+	   
+	</footer>
+
+	<!-- //---------------------FOOTER-------------END-----------------// -->
+  
+</div>
+
+</body>
+<!-- //---------------------BODY-------------END---------------------------------------------------------------// -->
+</html>
